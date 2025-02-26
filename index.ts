@@ -14,7 +14,6 @@ function sum_to_n_c(n: number): number {
   // algorithm complexity: O(n)
   let result = 0;
   while (n) {
-    console.log({ n });
     result += n--;
   }
   return result;
